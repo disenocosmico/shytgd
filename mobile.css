@@ -58,12 +58,12 @@ header > #header-area > #header-bar-link {
 
 /* posts list customed layout */
 #article-list > .article-list-row has-category notice > .item > .list-header > strong { width: 0px; }
-/* #article-list > .article-list-row.notice { background: var(--color-bg) !important; }*/
+/* #article-list > .article-list-row.notice { background: var(--color-bg) !important; } */
 #article-list > .article-list-row.notice > .item > a.list-title { vertical-align: middle; }
 #article-list > .article-list-row.notice > .item > a.list-title > .title-value { padding-left: 6px; }
 #article-list > .article-list-row.notice > .item > a.list-title > .list-writer { height: 0px !important; opacity: 0; padding: 0px; }
 #article-list > .article-list-row.notice > .item > .list-header { width:12px; }
-#article-list>.article-list-row.hot { background-color: var(--color-bg); }
+/* #article-list>.article-list-row.hot { background-color: var(--color-bg); } */
 #article-list > .article-list-row > .item > span.a-badge { width: 40px; }
 #article-list > .article-list-row > .item > a.list-title > .title-value { max-width: 240px; }
 #article-list > .article-list-row > .item > a.list-title > .list-writer.logged > span { color: var(--color-3); }
