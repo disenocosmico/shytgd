@@ -8,17 +8,6 @@
 	font-style: normal; 
 }
 
-/*넥센타이어 폰트*/
-@font-face { 
-	font-family: 'NEXEN_TIRE_Bold'; 
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/NEXEN_TIRE_Bold.woff') format('woff'); 
-	font-weight: normal; 
-	font-style: normal; 
-}
-
-/* 닉스곤폰트M */
-@font-face { font-family: 'NIXGONM-Vb'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONM-Vb.woff') format('woff'); font-weight: normal; font-style: normal; }
-
 * { font-family: 'GoyangIlsan'; }
 
 :root {

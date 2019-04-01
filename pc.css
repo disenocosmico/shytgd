@@ -62,7 +62,7 @@ header:before {
 	position: relative;
 	top: 10px;
 	padding: 0;
-	content: "방송시간: 화수금토일 낮 12시~";
+	content: "방송시간: 화수금토일 12시부터!";
 	color: var(--color-0); /* 추가 */
 	font-size: 30px;
 	font-family: 'NIXGONM-Vb'; 
