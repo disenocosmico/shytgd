@@ -1,19 +1,19 @@
 ﻿/* 기본 템플릿: 트게더 CSS디자인 커뮤니티 https://tgd.kr/18733230 감사합니다! */
-
+/* (스킨 수정: 익명의 트수) 샤이님은 CSS디자인 제작과 직접적인 관련이 없습니다 */
 /* 고양 일산체 */
-@font-face { 
-    font-family: 'GoyangIlsan'; 
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff'); 
-    font-weight: normal; 
-    font-style: normal; 
+@font-face {
+    font-family: 'GoyangIlsan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /*넥센타이어 폰트*/
-@font-face { 
-    font-family: 'NEXEN_TIRE_Bold'; 
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/NEXEN_TIRE_Bold.woff') format('woff'); 
-    font-weight: normal; 
-    font-style: normal; 
+@font-face {
+    font-family: 'NEXEN_TIRE_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/NEXEN_TIRE_Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* 닉스곤폰트M */
@@ -31,7 +31,7 @@
 	--color-3: #42275a; /* main color */
 	--color-4: #734b6d; /* sub  color */
 	--color-5: #a48cba; /* */
-	--color-bg: #bdb3c7; 
+	--color-bg: #bdb3c7;
 
 	--logo-URL: url("https://disenocosmico.github.io/shytgd/img/logo2.png");
 	--logo-Width: 158px;
@@ -65,7 +65,7 @@ header:before {
 	content: "방송시간: 화수금토일 12시부터!";
 	color: var(--color-0); /* 추가 */
 	font-size: 30px;
-	font-family: 'NIXGONM-Vb'; 
+	font-family: 'NIXGONM-Vb';
 	text-align: center;
 	margin-bottom: 15px;
 }
@@ -77,10 +77,10 @@ header {
 /* logo */
 header .row > div:nth-child(1) > a {
 	background-repeat: no-repeat; display: block; width: var(--logo-Width); height: var(--logo-Height);
-	background-image: var(--logo-URL); 
+	background-image: var(--logo-URL);
 }
-header .row > div:nth-child(1) > a img { 
-	display:none; 
+header .row > div:nth-child(1) > a img {
+	display:none;
 }
 
 /* ==============헤더바============== */
@@ -89,7 +89,7 @@ header #header-bar { margin-top: 0.5em; margin-bottom: 0.5em; padding-right: 30p
 
 /* header-bar */
 header #header-bar > .row {
-	padding-top: 0.5em; padding-bottom: 0.3em; 
+	padding-top: 0.5em; padding-bottom: 0.3em;
 	background: var(--color-0); border:0;
 	border-bottom: 2px solid var(--color-1); border-right: 2px solid var(--color-1); /*그림자*/ }
 
@@ -102,8 +102,8 @@ header #header-bar #header-top-notice strong.notice-badge {
 #article-list #article-option-area>#article-option-area-toggle-btn { position: relative; right: 14px; }
 
 /* hot post background */
-#article-list > .article-list-row.hot { 
-	/* background:-webkit-linear-gradient(135deg, var(--color-3) 0%,var(--color-5) 11%,var(--color-0) 40%,var(--color-0) 90%,var(--color-5) 95%,var(--color-3) 100%); */ 
+#article-list > .article-list-row.hot {
+	/* background:-webkit-linear-gradient(135deg, var(--color-3) 0%,var(--color-5) 11%,var(--color-0) 40%,var(--color-0) 90%,var(--color-5) 95%,var(--color-3) 100%); */
 }
 
 /* ==============좌측메뉴============== */
@@ -170,7 +170,7 @@ span.a-badge i.fa.fa-info-circle {
 }
 
 /* pagination */
-    .pagination > li > a, .pagination > li > span { color: var(--color-3); } 
+    .pagination > li > a, .pagination > li > span { color: var(--color-3); }
     .pagination > li > a:hover { color: var(--color-3); background-color: var(--color-bg); }
     .pagination > .active > a,
     .pagination > .active > a:focus,
