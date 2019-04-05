@@ -41,6 +41,8 @@
 	--icon-URL: url("https://disenocosmico.github.io/shytgd/img/shen.png");
 	--pre-comment: "우직한 트수 ";
 	--sub-comment: "명 접속 중!";
+
+  --header-comment: "방송시간: 화수금토일 12시부터!";
 }
 
 html {
@@ -62,13 +64,14 @@ header:before {
 	position: relative;
 	top: 10px;
 	padding: 0;
-	content: "방송시간: 화수금토일 12시부터!";
-	color: var(--color-0); /* 추가 */
+	content: var(--header-comment);
+	color: var(--color-0);
 	font-size: 30px;
 	font-family: 'NIXGONM-Vb';
 	text-align: center;
 	margin-bottom: 15px;
 }
+
 header {
 	padding: 0 0 0.4em 0;
 }
