@@ -1,5 +1,7 @@
-﻿/* 기본 템플릿: 트게더 CSS디자인 커뮤니티 https://tgd.kr/18733230 감사합니다! */
-/* (CSS 수정: 익명의 트수) 샤이님은 해당 CSS디자인 제작과 직접적인 관련이 없습니다. */
+/* 기본 템플릿: 트게더 CSS디자인 커뮤니티 https://tgd.kr/18733230 감사합니다! */
+/* CSS 관련 사항은 연락처 disenocosmico@gmail.com 로 부탁드립니다. */
+/* 샤이님은 해당 CSS디자인 제작과 직접적인 관련이 없습니다. */
+
 /* 고양 일산체 */
 @font-face {
     font-family: 'GoyangIlsan';
@@ -53,7 +55,7 @@ body {
     background: transparent;
 }
 
-/*상단배너*/
+/*상단배너 (출처: https://tgd.kr/18930870) */
 header:before {
 	display: block;
 	width: 100%;
