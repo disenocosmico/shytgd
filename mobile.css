@@ -90,7 +90,7 @@ header > #header-area > #header-bar-link {
 #board-info > a.board-right-menu[href="//twitch.tv/pparkshy"] {padding: 10px 5px 10px 10px;}
 #board-info>h1 { display: block; }
 #board-info>h1>a { color: black; text-decoration: none; }
-#board-info>a.board-right-menu:hover {background: var(--color-0);}
+#board-info>a.board-right-menu:hover {background: none;}
 .fa-twitch:before {
     content: "\f1e8" " 트위치 바로가기";
     display: inline-block;
