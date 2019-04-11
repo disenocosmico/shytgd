@@ -80,12 +80,11 @@ header > #header-area > #header-bar-link {
 #article-list #article-list-category > a { display: inline-block; padding: 11px 16px; background: var(--color-0); text-decoration: none; font-size: 12px; font-weight: bold; }
 #article-list #article-list-category > a:focus { background: var(--color-bg); }
 
-#board-info { background: var(--color-0); max-height: 46px; max-block-size: 46px; }
+#board-info { background: var(--color-0); max-height: 46px; max-block-size: 46px; position: relative; }
 /*프로필 하단 메뉴를 설정하기 위한 부분입니다 */
-.frame { position: relative;}
 #board-info > a.board-right-menu { max-height: 40px; border: 0px; vertical-align: middle; color: black; }
 #board-info > a.board-right-menu[href="/pparkshy/profile"]{ display: none; }
-#board-info > a.board-right-menu[href="#"] { position: absolute; z-index: 20; right: 0; top: 3px; }
+#board-info > a.board-right-menu[href="#"] { position: absolute; z-index: 20; right: 0; top: 0; }
 #board-info > a.board-right-menu[href="/clips?streamer_id=198269400"]{padding: 10px 10px 10px 5px; }
 #board-info > a.board-right-menu[href="//twitch.tv/pparkshy"] {padding: 10px 5px 10px 10px;}
 #board-info>h1 { display: block; }
