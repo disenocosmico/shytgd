@@ -127,7 +127,8 @@ header > #header-area > #header-bar-link {
 /* top search bar */
 header > #header-search-bar #header-search-input { border: 2px solid var(--color-5); }
 header > #header-search-bar #header-search-btn { color: var(--color-0); }
-header > #header-area > #header-search-link { color: var(--color-0);  padding-top: 3px; }
+header > #header-search-bar #header-close-search-btn {padding: 3px 13px 0 0;}
+header > #header-area > #header-search-link { color: var(--color-0);  /*padding-top: 3px;*/ }
 header > #header-search-bar #header-search-input { flex: auto; }
 /* nav box (left side) */
 nav#nav > .nav-header { background: var(--color-3); }
