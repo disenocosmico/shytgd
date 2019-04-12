@@ -88,10 +88,11 @@ header > #header-area > #header-bar-link {
 #board-info > a.board-right-menu[href="#"] { position: absolute; z-index: 20; right: 0; top: 0; }
 #board-info > a.board-right-menu[href="/clips?streamer_id=198269400"]{padding: 10px 10px 10px 5px; }
 #board-info > a.board-right-menu[href="//twitch.tv/pparkshy"] {padding: 10px 5px 10px 10px;}
-#board-info>h1 { display: block; }
-#board-info>h1>a { color: black; text-decoration: none; }
-#board-info>a.board-right-menu:hover {background: none;}
-.fa-twitch:before {
+#board-info > h1 { display: block; }
+#board-info > h1 > a { color: black; text-decoration: none; }
+#board-info > a.board-right-menu:hover {background: none;}
+#board-info > a.board-right-menu > i.fa-star:before { color: #efc839; }
+#board-info > a.board-right-menu > i.fa-twitch:before {
     content: "\f1e8" " 트위치 바로가기";
     display: inline-block;
     min-width: 10px; padding: 7px 9px;
