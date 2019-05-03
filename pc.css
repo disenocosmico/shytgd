@@ -67,7 +67,7 @@ header:before {
 	padding: 0;
 	content: var(--header-comment);
 	color: var(--color-0);
-	font-size: 23px; /*30*/
+	font-size: 30px; 
 	font-family: 'NIXGONM-Vb';
 	text-align: center;
 	margin-bottom: 15px;
