@@ -43,7 +43,7 @@
 	--icon-URL: url("https://disenocosmico.github.io/shytgd/img/shen.png");
 	--pre-comment: "우직한 트수 ";
 	--sub-comment: "명 접속 중!";
-  --header-comment: "";
+  --header-comment: "티셔츠 공동구매하시는 분들 댓글삭제 절대 하지 말아주세요!!";
 }
 
 html {
@@ -67,7 +67,7 @@ header:before {
 	padding: 0;
 	content: var(--header-comment);
 	color: var(--color-0);
-	font-size: 30px; 
+	font-size: 20px; 
 	font-family: 'NIXGONM-Vb';
 	text-align: center;
 	margin-bottom: 15px;
