@@ -156,6 +156,7 @@ header > #header-area > #header-search-link { color: var(--color-0); }
 }
 
 /** 글작성 후 보이는 이미지 수정**/
+#article-content-wrapper #article-content img[alt="JKanStyle"],
 .fr-emoticon.fr-deletable > img[alt=JKanStyle]{
      width: 50px !important;
      height: 50px !important;
