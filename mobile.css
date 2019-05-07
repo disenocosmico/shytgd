@@ -24,13 +24,13 @@
 	--logo-URL: url("https://disenocosmico.github.io/shytgd/img/logom.png");
 	--logo-size-mobile: 90px 32px;
 
-	--emote-01: url("https://disenocosmico.github.io/shytgd/img/emote001.png");
-	--emote-02: url("https://disenocosmico.github.io/shytgd/img/emote002.png");
-	--emote-03: url("https://disenocosmico.github.io/shytgd/img/emote003.png");
-	--emote-04: url("https://disenocosmico.github.io/shytgd/img/emote004.png");
-	--emote-05: url("https://disenocosmico.github.io/shytgd/img/emote005.png");
-	--emote-06: url("https://disenocosmico.github.io/shytgd/img/emote006.png");
-	--emote-07: url("https://disenocosmico.github.io/shytgd/img/emote007.png");
+	--emote-01: url("https://disenocosmico.github.io/shytgd/img/emote/emote001.png");
+	--emote-02: url("https://disenocosmico.github.io/shytgd/img/emote/emote002.png");
+	--emote-03: url("https://disenocosmico.github.io/shytgd/img/emote/emote003.png");
+	--emote-04: url("https://disenocosmico.github.io/shytgd/img/emote/emote004.png");
+	--emote-05: url("https://disenocosmico.github.io/shytgd/img/emote/emote005.png");
+	--emote-06: url("https://disenocosmico.github.io/shytgd/img/emote/emote006.png");
+	--emote-07: url("https://disenocosmico.github.io/shytgd/img/emote/emote007.png");
 
 }
 
@@ -140,3 +140,140 @@ header > #header-area > #header-search-link { color: var(--color-0);  padding-to
 /* nav box (left side) */
 nav#nav > .nav-header { background: var(--color-3); }
 header > #header-area > #header-search-link { color: var(--color-0); }
+
+
+/**이모티콘**/
+
+
+/** emote001 **/
+/** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/
+.fr-command.fr-emoticon[data-param1=JKanStyle] > img {
+     width: 30px !important;
+     height: 30px !important;
+     padding-left: 30px;
+     background-image: var(--emote-01);
+     background-size: 100%;
+}
+
+/** 글작성 후 보이는 이미지 수정**/
+.fr-emoticon.fr-deletable > img[alt=JKanStyle]{
+     width: 50px !important;
+     height: 50px !important;
+     padding-left: 50px;
+     background-image: var(--emote-01);
+     background-size: 100%;
+}
+
+/** emote002 **/
+/** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/
+.fr-command.fr-emoticon[data-param1=OptimizePrime] > img {
+     width: 30px !important;
+     height: 30px !important;
+     padding-left: 30px;
+     background-image: var(--emote-02);
+     background-size: 100%;
+}
+
+/** 글작성 후 보이는 이미지 수정**/
+.fr-emoticon.fr-deletable > img[alt=OptimizePrime]{
+     width: 50px !important;
+     height: 50px !important;
+     padding-left: 50px;
+     background-image: var(--emote-02);
+     background-size: 100%;
+}
+
+/** emote003 **/
+/** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/
+.fr-command.fr-emoticon[data-param1=StoneLightning] > img {
+     width: 30px !important;
+     height: 30px !important;
+     padding-left: 30px;
+     background-image: var(--emote-03);
+     background-size: 100%;
+}
+
+/** 글작성 후 보이는 이미지 수정**/
+.fr-emoticon.fr-deletable > img[alt=StoneLightning]{
+     width: 50px !important;
+     height: 50px !important;
+     padding-left: 50px;
+     background-image: var(--emote-03);
+     background-size: 100%;
+}
+
+/** emote004 **/
+/** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/
+.fr-command.fr-emoticon[data-param1=TheRinger] > img {
+     width: 30px !important;
+     height: 30px !important;
+     padding-left: 30px;
+     background-image: var(--emote-04);
+     background-size: 100%;
+}
+
+/** 글작성 후 보이는 이미지 수정**/
+.fr-emoticon.fr-deletable > img[alt=TheRinger]{
+     width: 50px !important;
+     height: 50px !important;
+     padding-left: 50px;
+     background-image: var(--emote-04);
+     background-size: 100%;
+}
+
+/** emote005 **/
+/** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/
+.fr-command.fr-emoticon[data-param1=RedCoat] > img {
+     width: 30px !important;
+     height: 30px !important;
+     padding-left: 30px;
+     background-image: var(--emote-05);
+     background-size: 100%;
+}
+
+/** 글작성 후 보이는 이미지 수정**/
+.fr-emoticon.fr-deletable > img[alt=RedCoat]{
+     width: 50px !important;
+     height: 50px !important;
+     padding-left: 50px;
+     background-image: var(--emote-05);
+     background-size: 100%;
+}
+
+/** emote006 **/
+/** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/
+.fr-command.fr-emoticon[data-param1=Kappa] > img {
+     width: 30px !important;
+     height: 30px !important;
+     padding-left: 30px;
+     background-image: var(--emote-06);
+     background-size: 100%;
+}
+
+/** 글작성 후 보이는 이미지 수정**/
+.fr-emoticon.fr-deletable > img[alt=Kappa]{
+     width: 50px !important;
+     height: 50px !important;
+     padding-left: 50px;
+     background-image: var(--emote-06);
+     background-size: 100%;
+}
+
+/** emote007 **/
+/** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/
+.fr-command.fr-emoticon[data-param1=JonCarnage] > img {
+     width: 30px !important;
+     height: 30px !important;
+     padding-left: 30px;
+     background-image: var(--emote-07);
+     background-size: 100%;
+}
+
+/** 글작성 후 보이는 이미지 수정**/
+.fr-emoticon.fr-deletable > img[alt=JonCarnage]{
+     width: 50px !important;
+     height: 50px !important;
+     padding-left: 50px;
+     background-image: var(--emote-07);
+     background-size: 100%;
+}
