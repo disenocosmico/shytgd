@@ -142,7 +142,7 @@ nav#nav > .nav-header { background: var(--color-3); }
 header > #header-area > #header-search-link { color: var(--color-0); }
 
 
-/**이모티콘**/
+/**이모티콘 참고자료: https://tgd.kr/18975286 **/
 
 
 /** emote001 **/
@@ -176,6 +176,7 @@ header > #header-area > #header-search-link { color: var(--color-0); }
 }
 
 /** 글작성 후 보이는 이미지 수정**/
+#article-content-wrapper #article-content img[alt=OptimizePrime],
 .fr-emoticon.fr-deletable > img[alt=OptimizePrime]{
      width: 50px !important;
      height: 50px !important;
@@ -195,6 +196,7 @@ header > #header-area > #header-search-link { color: var(--color-0); }
 }
 
 /** 글작성 후 보이는 이미지 수정**/
+#article-content-wrapper #article-content img[alt=StoneLightning],
 .fr-emoticon.fr-deletable > img[alt=StoneLightning]{
      width: 50px !important;
      height: 50px !important;
@@ -214,6 +216,7 @@ header > #header-area > #header-search-link { color: var(--color-0); }
 }
 
 /** 글작성 후 보이는 이미지 수정**/
+#article-content-wrapper #article-content img[alt=TheRinger],
 .fr-emoticon.fr-deletable > img[alt=TheRinger]{
      width: 50px !important;
      height: 50px !important;
@@ -233,6 +236,7 @@ header > #header-area > #header-search-link { color: var(--color-0); }
 }
 
 /** 글작성 후 보이는 이미지 수정**/
+#article-content-wrapper #article-content img[alt=RedCoat],
 .fr-emoticon.fr-deletable > img[alt=RedCoat]{
      width: 50px !important;
      height: 50px !important;
@@ -252,6 +256,7 @@ header > #header-area > #header-search-link { color: var(--color-0); }
 }
 
 /** 글작성 후 보이는 이미지 수정**/
+#article-content-wrapper #article-content img[alt=Kappa],
 .fr-emoticon.fr-deletable > img[alt=Kappa]{
      width: 50px !important;
      height: 50px !important;
@@ -271,6 +276,7 @@ header > #header-area > #header-search-link { color: var(--color-0); }
 }
 
 /** 글작성 후 보이는 이미지 수정**/
+#article-content-wrapper #article-content img[alt=JonCarnage],
 .fr-emoticon.fr-deletable > img[alt=JonCarnage]{
      width: 50px !important;
      height: 50px !important;
