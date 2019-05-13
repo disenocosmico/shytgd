@@ -8,7 +8,7 @@ src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/KOMACON.
 font-weight: normal; font-style: normal; 
 }
 
-* { font-family: 'KOMACON'; }
+* { /*font-family: 'KOMACON';*/ }
 
 :root {
 	--color-0: #ffffff; /* box color */
