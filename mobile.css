@@ -2,13 +2,11 @@
 /* CSS 관련 사항은 연락처 disenocosmico@gmail.com 로 부탁드립니다. */
 /* 샤이님은 해당 CSS디자인 제작과 직접적인 관련이 없습니다. */
 
-/* 만화진흥원체 */
-@font-face { font-family: 'KOMACON'; 
-src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/KOMACON.woff') format('woff'); 
-font-weight: normal; font-style: normal; 
-}
+/* 고양일산체 */
 
-* { /*font-family: 'KOMACON';*/ }
+@font-face { font-family: 'GoyangIlsan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+* { font-family: 'GoyangIlsan'; }
 
 :root {
 	--color-0: #ffffff; /* box color */
