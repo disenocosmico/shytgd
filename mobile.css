@@ -14,7 +14,7 @@
 	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/KOMACON.woff') format('woff'); 
 	font-weight: normal; font-style: normal; }
 
-*:not(div[data-id='22213851']) { font-family: 'GoyangIlsan', sans-serif; }
+* { font-family: 'GoyangIlsan', sans-serif; }
 
 :root {
 	--color-0: #ffffff; /* box color */
