@@ -3,18 +3,20 @@
 /* 샤이님은 해당 CSS디자인 제작과 직접적인 관련이 없습니다. */
 
 /* 고양일산체 */
-@font-face { 
-	font-family: 'GoyangIlsan'; 
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff'); 
-	font-weight: normal; font-style: normal; 
+@font-face {
+	font-family: 'GoyangIlsan';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff');
+	font-weight: normal; font-style: normal;
 }
 
-/*만화진흥원체*/
-@font-face { font-family: 'KOMACON'; 
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/KOMACON.woff') format('woff'); 
-	font-weight: normal; font-style: normal; }
+/*한둥근돋움*/
+@font-face {
+	font-family: 'WONDotum';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/WONDotum.woff') format('woff');
+	font-weight: normal; font-style: normal;
+}
 
-* { font-family: 'GoyangIlsan'; }
+*{ font-family: 'WONDotum';}
 
 :root {
 	--color-0: #ffffff; /* box color */
@@ -146,9 +148,8 @@ nav#nav > .nav-header { background: var(--color-3); }
 header > #header-area > #header-search-link { color: var(--color-0); }
 
 /*특정글 폰트고정*/
-/*div[data-id='22676377'] > p */
-#article-content {
-	font-family: 'GoyangIlsan'!important;
+div#article-content[data-id='22676377'].fr-view > p {
+    font-family: 'GoyangIlsan' !important;
 }
 
 #password {

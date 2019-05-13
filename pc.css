@@ -15,12 +15,14 @@
     font-style: normal;
 }
 
-/*만화진흥원체*/
-@font-face { font-family: 'KOMACON'; 
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/KOMACON.woff') format('woff'); 
-	font-weight: normal; font-style: normal; }
+/*한둥근돋움*/
+@font-face {
+	font-family: 'WONDotum';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/WONDotum.woff') format('woff');
+	font-weight: normal; font-style: normal;
+}
 
-* { font-family: 'GoyangIlsan'; }
+*{ font-family: 'WONDotum';}
 
 /* 모든 항목 focus시 아웃라인 제거 */
 *:focus { outline: none !important; }
@@ -277,9 +279,8 @@ header #right-search-form>#right-search-btn:focus {
 }
 
 /*특정글 폰트고정*/
-/*div[data-id='22676377'] > p */
-#article-content {
-	font-family: 'GoyangIlsan'!important;
+div#article-content[data-id='22676377'].fr-view > p {
+    font-family: 'GoyangIlsan' !important;
 }
 
 #password {
