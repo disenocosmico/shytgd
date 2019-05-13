@@ -15,10 +15,12 @@
     font-style: normal;
 }
 
-/* 닉스곤폰트M */
-@font-face { font-family: 'NIXGONM-Vb'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONM-Vb.woff') format('woff'); font-weight: normal; font-style: normal; }
+/*만화진흥원체*/
+@font-face { font-family: 'KOMACON'; 
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/KOMACON.woff') format('woff'); 
+	font-weight: normal; font-style: normal; }
 
-* { font-family: 'GoyangIlsan'; }
+* { font-family: 'KOMACON'; }
 
 /* 모든 항목 focus시 아웃라인 제거 */
 *:focus { outline: none !important; }
@@ -75,7 +77,6 @@ header:before {
 	content: var(--header-comment);
 	color: var(--color-0);
 	font-size: 20px;
-	font-family: 'NIXGONM-Vb';
 	text-align: center;
 	margin-bottom: 15px;
 }
@@ -275,8 +276,17 @@ header #right-search-form>#right-search-btn:focus {
 	transition: .25s;
 }
 
-/**이모티콘 참고자료: https://tgd.kr/18975286 **/
+/*특정글 폰트고정*/
+/*div[data-id='22676377'] > p */
+#article-content {
+	font-family: 'GoyangIlsan'!important;
+}
 
+#password {
+	font-family: 'GoyangIlsan'!important;
+}
+
+/**이모티콘 참고자료: https://tgd.kr/18975286 **/
 /** emote001 **/
 /** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/
 .fr-command.fr-emoticon[data-param1=JKanStyle] > img {
