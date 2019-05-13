@@ -148,9 +148,10 @@ nav#nav > .nav-header { background: var(--color-3); }
 header > #header-area > #header-search-link { color: var(--color-0); }
 
 /*특정 글의 폰트를 고정합니다*/
-#article-content[data-id='22213851'] {
+div[data-id='22213851'] {
 /* font-family: 'GoyangIlsan';*/
 	font-family: 'KOMACON';
+	color:red;
 }
 
 
