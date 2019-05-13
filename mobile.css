@@ -16,7 +16,7 @@
 	font-weight: normal; font-style: normal; 
 }
 
-* { font-family: 'GoyangIlsan'; }
+* { font-family: 'KOMACON'; }
 
 :root {
 	--color-0: #ffffff; /* box color */
@@ -148,10 +148,8 @@ nav#nav > .nav-header { background: var(--color-3); }
 header > #header-area > #header-search-link { color: var(--color-0); }
 
 /*특정 글의 폰트를 고정합니다*/
-div[data-id='22213851'] {
-/* font-family: 'GoyangIlsan';*/
-	font-family: 'KOMACON';
-	color:red;
+div[data-id='22676377'] {
+font-family: 'GoyangIlsan';
 }
 
 
