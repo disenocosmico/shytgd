@@ -147,7 +147,7 @@ header > #header-area > #header-search-link { color: var(--color-0); }
 
 /*특정글 폰트고정*/
 div[data-id='22213851'] {
-	font-family: 'KOMACON';
+	font-family: 'KOMACON'!important;
 }
 
 /**이모티콘 참고자료: https://tgd.kr/18975286 **/
