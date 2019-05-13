@@ -9,8 +9,12 @@
 	font-weight: normal; font-style: normal; 
 }
 
+/*만화진흥원체*/
+@font-face { font-family: 'KOMACON'; 
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/KOMACON.woff') format('woff'); 
+	font-weight: normal; font-style: normal; }
 
-* { font-family: 'GoyangIlsan', Dotum; }
+* { font-family: 'GoyangIlsan', sans-serif; }
 
 :root {
 	--color-0: #ffffff; /* box color */
@@ -141,6 +145,8 @@ header > #header-area > #header-search-link { color: var(--color-0);  padding-to
 nav#nav > .nav-header { background: var(--color-3); }
 header > #header-area > #header-search-link { color: var(--color-0); }
 
+/*특정글 폰트고정*/
+#article-content-22213851 {font-family: 'KOMACON';}
 
 /**이모티콘 참고자료: https://tgd.kr/18975286 **/
 /** emote001 **/
