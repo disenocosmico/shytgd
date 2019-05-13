@@ -146,7 +146,8 @@ nav#nav > .nav-header { background: var(--color-3); }
 header > #header-area > #header-search-link { color: var(--color-0); }
 
 /*특정글 폰트고정*/
-div[data-id='22676377'] > p {
+/*div[data-id='22676377'] > p */
+#article-content {
 	font-family: 'GoyangIlsan'!important;
 }
 
