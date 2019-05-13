@@ -146,7 +146,7 @@ nav#nav > .nav-header { background: var(--color-3); }
 header > #header-area > #header-search-link { color: var(--color-0); }
 
 /*특정글 폰트고정*/
-#article-content-22213851 > {font-family: 'KOMACON';}
+div[data-id='22213851'] {font-family: 'KOMACON';}
 
 /**이모티콘 참고자료: https://tgd.kr/18975286 **/
 /** emote001 **/
