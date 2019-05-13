@@ -3,8 +3,18 @@
 /* 샤이님은 해당 CSS디자인 제작과 직접적인 관련이 없습니다. */
 
 /* 고양일산체 */
+@font-face { 
+	font-family: 'GoyangIlsan'; 
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff'); 
+	font-weight: normal; font-style: normal; 
+}
 
-@font-face { font-family: 'GoyangIlsan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff'); font-weight: normal; font-style: normal; }
+/* 만화진흥원체 */
+@font-face { 
+	font-family: 'KOMACON'; 
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/KOMACON.woff') format('woff'); 
+	font-weight: normal; font-style: normal; 
+}
 
 * { font-family: 'GoyangIlsan'; }
 
@@ -137,10 +147,14 @@ header > #header-area > #header-search-link { color: var(--color-0);  padding-to
 nav#nav > .nav-header { background: var(--color-3); }
 header > #header-area > #header-search-link { color: var(--color-0); }
 
+/*특정 글의 폰트를 고정합니다*/
+#article-content[data-id='22213851'] {
+/* font-family: 'GoyangIlsan';*/
+	font-family: 'KOMACON';
+}
+
 
 /**이모티콘 참고자료: https://tgd.kr/18975286 **/
-
-
 /** emote001 **/
 /** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/
 .fr-command.fr-emoticon[data-param1=JKanStyle] > img {
