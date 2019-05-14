@@ -289,10 +289,12 @@ div#article-content[data-id='22676377'].fr-view > p {
 
 /*티셔츠 공구 내용 수정*/
 
-#article-list > #article-list-row-21916194 > .item > a.list-title:visited {color: #ff4c4c !important;
+#article-list > #article-list-row-21916194 > .item > .list-title > a:visited {color: #ff4c4c !important;
 }
-#article-list > #article-list-row-21916194 > .item > a > small.comment-count:before {
-    content: ": 마감된 내용입니다";
+#article-list > #article-list-row-21916194 > .item > .list-header > strong {display: none; }
+#article-list > #article-list-row-21916194 > .item > .list-header:after {
+    content: "마감";
+    color: var(--color-4);
     font-family:"WONDotum";
 }
 
