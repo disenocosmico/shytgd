@@ -183,6 +183,10 @@ span.a-badge i.fa.fa-info-circle {
 	vertical-align: -2px !important;
 }
 
+/*티셔츠 공지 색 유지*/
+#article-list > #article-list-row-21916194 > .item > a.list-title:visited {color: #ff4c4c !important;
+}
+
 /* pagination */
     .pagination > li > a, .pagination > li > span { color: var(--color-3); }
     .pagination > li > a:hover { color: var(--color-3); background-color: var(--color-bg); }

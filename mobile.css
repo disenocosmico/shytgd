@@ -78,6 +78,10 @@ header > #header-area > #header-bar-link {
 
 /* posts list customed layout */
 #article-list > .article-list-row has-category notice > .item > .list-header > strong { width: 0px; }
+
+#article-list > #article-list-row-21916194 > .item > a.list-title:visited {color: #ff4c4c !important;
+}/*티셔츠 공지*/
+
 /* #article-list > .article-list-row.notice { background: var(--color-bg) !important; } */
 #article-list > .article-list-row.notice > .item > a.list-title { vertical-align: middle; }
 #article-list > .article-list-row.notice > .item > a.list-title > .title-value { padding-left: 6px; }
