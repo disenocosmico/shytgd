@@ -283,10 +283,6 @@ div#article-content[data-id='22676377'].fr-view > p {
     font-family: 'GoyangIlsan' !important;
 }
 
-#password {
-	font-family: 'GoyangIlsan'!important;
-}
-
 /*티셔츠 공구 내용 수정*/
 #article-list > #article-list-row-21916194 > .item > .list-title > a:visited {color: #ff4c4c !important; }
 #article-list > #article-list-row-21916194 > .item > .list-header > strong {display: none; }
