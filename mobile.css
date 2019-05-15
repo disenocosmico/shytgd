@@ -16,7 +16,7 @@
 	font-weight: normal; font-style: normal;
 }
 
-*{ font-family: 'WONDotum';}
+*{ font-family: /*'WONDotum';*/ 'GoyangIlsan';}
 
 :root {
 	--color-0: #ffffff; /* box color */
