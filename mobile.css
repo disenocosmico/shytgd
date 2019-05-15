@@ -152,6 +152,7 @@ header > #header-area > #header-search-link { color: var(--color-0); }
 div#article-content[data-id='22676377'].fr-view > p {
     font-family: 'GoyangIlsan' !important;
 }
+.reply-content {font-family:'GoyangIlsan' !important;}
 #commentPassword { font-family: sans-serif; }
 
 /*티셔츠 공구 내용 수정*/
