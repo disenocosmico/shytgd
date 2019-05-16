@@ -291,7 +291,7 @@ div#article-content[data-id='22803130'].fr-view > p {
 #article-list > #article-list-row-21916194 > .item > .list-header > strong {display: none; }
 #article-list > #article-list-row-21916194 > .item > .list-header:after {
     content: "마감";
-    background: var(--color-4); color: white;
+    color: var(--color-4);
     font-weight:bold; font-size: small
 }
 
