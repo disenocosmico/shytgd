@@ -9,15 +9,14 @@
 	font-weight: normal; font-style: normal;
 }
 
-/*한둥근돋움*/
+/*한수원 한울림체*/
 @font-face {
-	font-family: 'WONDotum';
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/WONDotum.woff') format('woff');
-	font-weight: normal; font-style: normal;
+    font-family: 'KHNPHU';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KHNPHU.woff') format('woff');
+    font-weight: normal; font-style: normal;
 }
 
-*{ font-family: 'WONDotum';}
-
+* {font-family: 'KHNPHU';}
 :root {
 	--color-0: #ffffff; /* box color */
 	--color-1: #cceecc; /* */
