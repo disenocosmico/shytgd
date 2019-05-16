@@ -154,15 +154,14 @@ div#article-content[data-id='22676377'].fr-view > p {
 div#article-content[data-id='22803130'].fr-view > p {
     font-family: 'GoyangIlsan' !important;
 }
-#commentPassword { font-family: sans-serif; }
 
 /*티셔츠 공구 내용 수정*/
 #article-list > #article-list-row-21916194 > .item > a.list-title:visited {color: #ff4c4c !important;} /*방문한 페이지 색*/
-#article-list > #article-list-row-21916194 > .item > a > span.a-badge{width:20px;} /*공지 아이콘 가리기*/
+#article-list > #article-list-row-21916194 > .item > a > span.a-badge { width:20px; } /*공지 아이콘 가리기*/
 #article-list > #article-list-row-21916194 > .item > a > span > i:before {
     content: "마감";
     background: var(--color-4); color: white;
-    font-weight: bold; font-family:"WONDotum"; text-align:center; font-size: x-small;
+    font-weight: bold; font-family:"KHNPHU"; text-align:center; font-size: x-small;
 }
 
 
