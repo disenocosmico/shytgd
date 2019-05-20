@@ -128,6 +128,9 @@ header > #header-area > #header-bar-link {
 
 /* Button */
 .btn-primary { background: var(--color-4); color: var(--color-0); border-color: var(--color-3); }
+.btn-primary:hover, .btn-primary:active { background: var(--color-bg); }
+
+/*pagination*/
 .pagination > .active > a, .pagination > .active > a:focus,
 .pagination > .active > a:hover, .pagination > .active > span,
 .pagination > .active > span:focus, .pagination > .active > span:hover { background-color: var(--color-4); border-color: var(--color-3); }

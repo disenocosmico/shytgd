@@ -223,7 +223,7 @@ span.a-badge i.fa.fa-info-circle {
 
 /* ButtonAnim */
 .btn-primary { background: var(--color-4); }
-.btn-primary:hover { background: var(--color-bg); }
+.btn-primary:hover, .btn-primary:active { background: var(--color-bg); }
 
 /* dropdown transition */
 
