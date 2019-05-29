@@ -2,18 +2,11 @@
 /* CSS 관련 사항은 연락처 disenocosmico@gmail.com 로 부탁드립니다. */
 /* 샤이님은 해당 CSS디자인 제작과 직접적인 관련이 없습니다. */
 
+/*이모티콘용 시트를 불러옵니다*/
+@import "emote.css";
+
 /* 고양일산체 */
-
 @font-face { font-family: 'GoyangIlsan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff'); font-weight: normal; font-style: normal; }
-
-
-/*넥센타이어 폰트*/
-@font-face {
-    font-family: 'NEXEN_TIRE_Bold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/NEXEN_TIRE_Bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 /*한수원 한울림체*/
 @font-face {
@@ -29,37 +22,24 @@
 
 :root {
 	--color-0: #ffffff; /* box color */
-	--color-1: #cceecc; /* */
-	--color-2: #e3f1af; /* */
-	--color-3: #42275a; /* main color */
-	--color-4: #734b6d; /* sub  color */
-	--color-5: #a48cba; /* */
-	--color-bg: #bdb3c7;
+	--color-main: #42275a; /* main color */
+	--color-sub: #734b6d; /* sub  color */
+	--color-A: #a48cba; /* */
+	--color-hover: #bdb3c7;
 
 	--logo-URL: url("https://disenocosmico.github.io/shytgd/img/logo2.png");
 	--logo-Width: 158px;
 	--logo-Height: 50px;
-	--logo-size-mobile: 90px 32px;
 
 	--icon-URL: url("https://disenocosmico.github.io/shytgd/img/shen.png");
 	--pre-comment: "우직한 트수 ";
 	--sub-comment: "명 접속 중!";
-
   --header-comment: "방장 기다리는 중!";
-
-  --emote-01: url("https://disenocosmico.github.io/shytgd/img/emote/emote001.png");
-  --emote-02: url("https://disenocosmico.github.io/shytgd/img/emote/emote002.png");
-  --emote-04: url("https://disenocosmico.github.io/shytgd/img/emote/emote004.png");
-  --emote-03: url("https://disenocosmico.github.io/shytgd/img/emote/emote003.png");
-  --emote-05: url("https://disenocosmico.github.io/shytgd/img/emote/emote005.png");
-  --emote-06: url("https://disenocosmico.github.io/shytgd/img/emote/emote006.png");
-  --emote-07: url("https://disenocosmico.github.io/shytgd/img/emote/emote007.png");
-
 }
 
 html {
 	height:auto !important;
-	background: linear-gradient(to bottom, var(--color-3) 0%, var(--color-4) 100%);
+	background: linear-gradient(to bottom, var(--color-main) 0%, var(--color-sub) 100%);
 }
 
 body {
@@ -69,18 +49,12 @@ body {
 /*상단배너 (출처: https://tgd.kr/18930870) */
 header:before {
 	display: block;
-	width: 100%;
-	height: 78px;
-	background: transparent;
-	background-position: center center;
-	position: relative;
-	top: 10px;
-	padding: 0;
-	content: var(--header-comment);
-	color: var(--color-0);
-	font-size: 20px;
-	text-align: center;
-	margin-bottom: 15px;
+	width: 100%; height: 78px;
+	background: transparent; background-position: center center;
+	position: relative; top: 10px;
+	padding: 0; margin-bottom: 15px;
+	content: var(--header-comment); color: var(--color-0);
+	font-size: 20px; text-align: center;
 }
 
 header {
@@ -109,7 +83,7 @@ header #header-bar > .row {
 
 /*advertisement tag */
 header #header-bar #header-top-notice strong.notice-badge {
-	background: var(--color-4); padding: 4px 8px; color: var(--color-0); font-weight: bold;
+	background: var(--color-sub); padding: 4px 8px; color: var(--color-0); font-weight: bold;
 }
 
 /* eye pos */
@@ -117,14 +91,14 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 /* hot post background */
 #article-list > .article-list-row.hot {
-	/* background:-webkit-linear-gradient(135deg, var(--color-3) 0%,var(--color-5) 11%,var(--color-0) 40%,var(--color-0) 90%,var(--color-5) 95%,var(--color-3) 100%); */
+	/* background:-webkit-linear-gradient(135deg, var(--color-main) 0%,var(--color-A) 11%,var(--color-0) 40%,var(--color-0) 90%,var(--color-A) 95%,var(--color-main) 100%); */
 }
 
 /* ==============좌측메뉴============== */
 /* tgd menu box */
-#main .menu-wrapper > .header { background: var(--color-4); color: var(--color-0); padding: 0.45em 1.4em 0.45em 1em; font-weight: bold; border-radius: 10px 10px 0 0;}
-#main .menu-wrapper > a > em { color: var(--color-3);}
-#main .menu-wrapper > a > i.fa.fa-square { color:var(--color-3); }
+#main .menu-wrapper > .header { background: var(--color-sub); color: var(--color-0); padding: 0.45em 1.4em 0.45em 1em; font-weight: bold; border-radius: 10px 10px 0 0;}
+#main .menu-wrapper > a > em { color: var(--color-main);}
+#main .menu-wrapper > a > i.fa.fa-square { color:var(--color-main); }
 /* 스케줄은 개별적용 */
 #main .menu-wrapper > .header > a { color: var(--color-0); }
 
@@ -149,10 +123,10 @@ header #header-bar > .row {
 
 /* ==============프로필============== */
 #board-info { width: 100%; height: 100px; overflow: hidden; line-height: 1; margin: 0 0 1em; padding: 1em;}
-#board-info #board-info-bottom a { color: /* var(--color-3)*/ black; } /* font color */
+#board-info #board-info-bottom a { color: /* var(--color-main)*/ black; } /* font color */
 #board-info #board-info-profile-img { width: 6em; height: auto; border-radius: 50%; border: none; }
 #board-info h1 { font-size: 30px; vertical-align: top; padding-left: 4px; padding-top: 0.5em; } /* name */
-#board-info h1 > a { text-decoration: none; font-family: 'NEXEN_TIRE_Bold'; }
+#board-info h1 > a { text-decoration: none; font-family: 'KHNPHU'; font-weight: bolder; }
 #board-info h1 > a.badge.badge-live {
 	background: #c00; color: #fff;
 	text-decoration: none;
@@ -175,58 +149,57 @@ header #header-bar > .row {
 }
 
 /* notice post mouse hovered */
-#article-list > .article-list-row.notice:hover { background: var(--color-bg); }
+#article-list > .article-list-row.notice:hover { background: var(--color-hover); }
 
 /* 공지 뱃지 */
 span.a-badge i.fa.fa-info-circle {
-	color: var(--color-4);
+	color: var(--color-sub);
 	vertical-align: -2px !important;
 }
 
 /* pagination */
-    .pagination > li > a, .pagination > li > span { color: var(--color-3); }
-    .pagination > li > a:hover { color: var(--color-3); background-color: var(--color-bg); }
+    .pagination > li > a, .pagination > li > span { color: var(--color-main); }
+    .pagination > li > a:hover { color: var(--color-main); background-color: var(--color-hover); }
     .pagination > .active > a,
     .pagination > .active > a:focus,
     .pagination > .active > a:hover,
     .pagination > .active > span,
     .pagination > .active > span:focus,
-    .pagination > .active > span:hover { background-color: var(--color-3); border-color: var(--color-3); }
+    .pagination > .active > span:hover { background-color: var(--color-main); border-color: var(--color-main); }
 
-#article-content-wrapper > .header { border-top: 3px solid var(--color-4); }
-#article-content-wrapper > .footer { border-bottom: 3px solid var(--color-4); }
+#article-content-wrapper > .header { border-top: 3px solid var(--color-sub); }
+#article-content-wrapper > .footer { border-bottom: 3px solid var(--color-sub); }
 #article-list #article-list-category > a { display: inline-block; padding: 11px 16px; background: var(--color-0); text-decoration: none; font-size: 12px; font-weight: bold }
-#article-list #article-list-category > a:hover { background: var(--color-bg);}
+#article-list #article-list-category > a:hover { background: var(--color-hover);}
 
 /* category background */
-#article-list #article-list-category { border-top: 3px solid var(--color-4); background: var(--color-4); }
+#article-list #article-list-category { border-top: 3px solid var(--color-sub); background: var(--color-sub); }
 
 /* 목록 글쓴이 색깔 */
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
-	color: var(--color-4);
+	color: var(--color-sub);
 	font-weight: bold;
 }
 /* 목록 댓글 수*/
-#article-list>.article-list-row>.item>.list-title>small.comment-count { color: var(--color-4); }
+#article-list>.article-list-row>.item>.list-title>small.comment-count { color: var(--color-sub); }
 
 /*댓글창*/
 #article-reply-area #reply-real-area .reply > .reply-header { }
-#article-reply-area > .header h5 { font-size: 14px; color: var(--color-4); font-weight: bold; }
+#article-reply-area > .header h5 { font-size: 14px; color: var(--color-sub); font-weight: bold; }
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
 	font-weight: bold;
-	color: var(--color-4);
+	color: var(--color-sub);
 	cursor: pointer;
 }
 
 /* 추천수 하이라이터*/
-#article-list > .article-list-row > .item > .list-header > span { background-color: var(--color-4); color: var(--color-0); font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 100px }
+#article-list > .article-list-row > .item > .list-header > span { background-color: var(--color-sub); color: var(--color-0); font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 100px }
 
 /* ButtonAnim */
-.btn-primary { background: var(--color-4); }
-.btn-primary:hover, .btn-primary:active { background: var(--color-bg); }
+.btn-primary { background: var(--color-sub); }
+.btn-primary:hover, .btn-primary:active { background: var(--color-hover); }
 
 /* dropdown transition */
-
 .dropdown.open .dropdown-menu,
 .input-group-btn.open .dropdown-menu {
 	opacity: unset;
@@ -253,7 +226,7 @@ span.a-badge i.fa.fa-info-circle {
 	transition: .1s;
 }
 a {
-    color: var(--color-5);
+    color: var(--color-A);
 }
 /* 검색 창 */
 header #right-search-form>input[type='text'] {
@@ -291,140 +264,6 @@ div#article-content[data-id='22803130'].fr-view > p {
 #article-list > #article-list-row-21916194 > .item > .list-header > strong {display: none; }
 #article-list > #article-list-row-21916194 > .item > .list-header:after {
     content: "마감";
-    color: var(--color-4);
+    color: var(--color-sub);
     font-weight:bold; font-size: small
-}
-
-/**이모티콘 참고자료: https://tgd.kr/18975286 **/
-/** emote001 **/
-/** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/
-.fr-command.fr-emoticon[data-param1=JKanStyle] > img {
-     width: 30px !important;
-     height: 30px !important;
-     padding-left: 30px;
-     background-image: var(--emote-01);
-     background-size: 100%;
-}
-
-/** 글작성 후 보이는 이미지 수정**/
-.fr-emoticon.fr-deletable > img[alt=JKanStyle]{
-     width: 50px !important;
-     height: 50px !important;
-     padding-left: 50px;
-     background-image: var(--emote-01);
-     background-size: 100%;
-}
-
-/** emote002 **/
-/** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/
-.fr-command.fr-emoticon[data-param1=OptimizePrime] > img {
-     width: 30px !important;
-     height: 30px !important;
-     padding-left: 30px;
-     background-image: var(--emote-02);
-     background-size: 100%;
-}
-
-/** 글작성 후 보이는 이미지 수정**/
-.fr-emoticon.fr-deletable > img[alt=OptimizePrime]{
-     width: 50px !important;
-     height: 50px !important;
-     padding-left: 50px;
-     background-image: var(--emote-02);
-     background-size: 100%;
-}
-
-/** emote003 **/
-/** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/
-.fr-command.fr-emoticon[data-param1=StoneLightning] > img {
-     width: 30px !important;
-     height: 30px !important;
-     padding-left: 30px;
-     background-image: var(--emote-03);
-     background-size: 100%;
-}
-
-/** 글작성 후 보이는 이미지 수정**/
-.fr-emoticon.fr-deletable > img[alt=StoneLightning]{
-     width: 50px !important;
-     height: 50px !important;
-     padding-left: 50px;
-     background-image: var(--emote-03);
-     background-size: 100%;
-}
-
-/** emote004 **/
-/** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/
-.fr-command.fr-emoticon[data-param1=TheRinger] > img {
-     width: 30px !important;
-     height: 30px !important;
-     padding-left: 30px;
-     background-image: var(--emote-04);
-     background-size: 100%;
-}
-
-/** 글작성 후 보이는 이미지 수정**/
-.fr-emoticon.fr-deletable > img[alt=TheRinger]{
-     width: 50px !important;
-     height: 50px !important;
-     padding-left: 50px;
-     background-image: var(--emote-04);
-     background-size: 100%;
-}
-
-/** emote005 **/
-/** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/
-.fr-command.fr-emoticon[data-param1=RedCoat] > img {
-     width: 30px !important;
-     height: 30px !important;
-     padding-left: 30px;
-     background-image: var(--emote-05);
-     background-size: 100%;
-}
-
-/** 글작성 후 보이는 이미지 수정**/
-.fr-emoticon.fr-deletable > img[alt=RedCoat]{
-     width: 50px !important;
-     height: 50px !important;
-     padding-left: 50px;
-     background-image: var(--emote-05);
-     background-size: 100%;
-}
-
-/** emote006 **/
-/** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/
-.fr-command.fr-emoticon[data-param1=Kappa] > img {
-     width: 30px !important;
-     height: 30px !important;
-     padding-left: 30px;
-     background-image: var(--emote-06);
-     background-size: 100%;
-}
-
-/** 글작성 후 보이는 이미지 수정**/
-.fr-emoticon.fr-deletable > img[alt=Kappa]{
-     width: 50px !important;
-     height: 50px !important;
-     padding-left: 50px;
-     background-image: var(--emote-06);
-     background-size: 100%;
-}
-
-/** emote007 **/
-/** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/
-.fr-command.fr-emoticon[data-param1=JonCarnage] > img {
-     width: 30px !important;
-     height: 30px !important;
-     padding-left: 30px;
-     background-image: var(--emote-07);
-     background-size: 100%;
-}
-
-/** 글작성 후 보이는 이미지 수정**/
-.fr-emoticon.fr-deletable > img[alt=JonCarnage]{
-     width: 50px !important;
-     height: 50px !important;
-     padding-left: 50px;
-     background-image: var(--emote-07);
-     background-size: 100%;
 }
