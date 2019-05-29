@@ -1,12 +1,12 @@
 /**이모티콘 참고자료: https://tgd.kr/18975286 **/
 :root {
---emote-01: url("https://disenocosmico.github.io/shytgd/img/emote/emote001.png");
---emote-02: url("https://disenocosmico.github.io/shytgd/img/emote/emote002.png");
---emote-03: url("https://disenocosmico.github.io/shytgd/img/emote/emote003.png");
---emote-04: url("https://disenocosmico.github.io/shytgd/img/emote/emote004.png");
---emote-05: url("https://disenocosmico.github.io/shytgd/img/emote/emote005.png");
---emote-06: url("https://disenocosmico.github.io/shytgd/img/emote/emote006.png");
---emote-07: url("https://disenocosmico.github.io/shytgd/img/emote/emote007.png");
+--emote-01: url("img/emote/emote001.png");
+--emote-02: url("img/emote/emote002.png");
+--emote-03: url("img/emote/emote003.png");
+--emote-04: url("img/emote/emote004.png");
+--emote-05: url("img/emote/emote005.png");
+--emote-06: url("img/emote/emote006.png");
+--emote-07: url("img/emote/emote007.png");
 }
 
 /** emote001 **/
