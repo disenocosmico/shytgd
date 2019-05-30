@@ -19,7 +19,8 @@
     font-weight: normal; font-style: normal;
 }
 
-* {font-family: 'KHNPHU';}
+* { font-family: 'KHNPHU'; font-display: swap; }
+
 :root {
 	--color-0: #ffffff; /* box color */
 	--color-main: #42275a; /* main color */
