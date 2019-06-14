@@ -59,7 +59,7 @@ header > #header-area > #header-bar-link {
 	color: var(--color-0);
 	padding-top: 3px;
 }
-#board-info h1 .badge-success {display: none;}
+#board-info h1.badge-success {display: none;}
 #board-info #viewers-area { font-size: 14px; color: var(--color-main); font-weight: normal; vertical-align: middle; line-height: 18px; display: inline-block; }
 #header-top-notice a { font-weight: bold; color: var(--color-main) !important; }
 #header-top-notice strong.notice-badge { background: var(--color-main) !important; }
