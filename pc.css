@@ -136,6 +136,8 @@ header #header-bar > .row {
 #board-info-bottom { padding-left: 4px;}
 #board-info #board-info-bottom { padding-top: 0.5em;}
 
+#board-info h1 .badge-success { display: none;}
+
 /* viewers */
 #board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: var(--icon-URL); }
 #board-info #viewers-area { color: black;}
