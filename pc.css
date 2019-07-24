@@ -12,8 +12,7 @@
 @font-face { font-family: 'GoyangIlsan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff'); font-weight: normal; font-style: normal; }
 
 
-* { font-family: 'Noto Sans KR', sans-serif; }
-
+* { font-family: 'Noto Sans KR Regular', sans-serif; }
 
 /* 모든 항목 focus시 아웃라인 제거 */
 *:focus { outline: none !important; }
