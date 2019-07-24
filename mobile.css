@@ -11,6 +11,7 @@
 /* 고양일산체 */
 @font-face { font-family: 'GoyangIlsan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff'); font-weight: normal; font-style: normal; }
 
+
 * { font-family: 'Noto Sans KR', sans-serif; }
 
 :root {
@@ -51,6 +52,7 @@ header > #header-area > #header-bar-link {
 	color: var(--color-0);
 	padding-top: 3px;
 }
+
 #board-info #viewers-area { font-size: 14px; color: var(--color-main); font-weight: normal; vertical-align: middle; line-height: 18px; display: inline-block; }
 #header-top-notice a { font-weight: bold; color: var(--color-main) !important; }
 #header-top-notice strong.notice-badge { background: var(--color-main) !important; }
