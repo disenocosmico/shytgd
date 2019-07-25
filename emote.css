@@ -1,13 +1,4 @@
-/**이모티콘 참고자료: https://tgd.kr/18975286 **/
-:root {
---emote-01: url("img/emote/emote001.png");
---emote-02: url("img/emote/emote002.png");
---emote-03: url("img/emote/emote003.png");
---emote-04: url("img/emote/emote004.png");
---emote-05: url("img/emote/emote005.png");
---emote-06: url("img/emote/emote006.png");
---emote-07: url("img/emote/emote007.png");
-}
+﻿/**이모티콘 참고자료: https://tgd.kr/18975286 **/
 
 /** emote001 **/
 /** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/
@@ -15,7 +6,7 @@
      width: 30px !important;
      height: 30px !important;
      padding-left: 30px;
-     background-image: var(--emote-01);
+     background-image: url("img/emote/emote001.png");
      background-size: 100%;
 }
 
@@ -25,7 +16,7 @@
      width: 50px !important;
      height: 50px !important;
      padding-left: 50px;
-     background-image: var(--emote-01);
+     background-image: url("img/emote/emote001.png");
      background-size: 100%;
 }
 
@@ -35,7 +26,7 @@
      width: 30px !important;
      height: 30px !important;
      padding-left: 30px;
-     background-image: var(--emote-02);
+     background-image: url("img/emote/emote002.png");
      background-size: 100%;
 }
 
@@ -45,7 +36,7 @@
      width: 50px !important;
      height: 50px !important;
      padding-left: 50px;
-     background-image: var(--emote-02);
+     background-image: url("img/emote/emote002.png");
      background-size: 100%;
 }
 
@@ -55,7 +46,7 @@
      width: 30px !important;
      height: 30px !important;
      padding-left: 30px;
-     background-image: var(--emote-03);
+     background-image: url("img/emote/emote003.png");
      background-size: 100%;
 }
 
@@ -65,7 +56,7 @@
      width: 50px !important;
      height: 50px !important;
      padding-left: 50px;
-     background-image: var(--emote-03);
+     background-image: url("img/emote/emote003.png");
      background-size: 100%;
 }
 
@@ -75,7 +66,7 @@
      width: 30px !important;
      height: 30px !important;
      padding-left: 30px;
-     background-image: var(--emote-04);
+     background-image: url("img/emote/emote004.png");
      background-size: 100%;
 }
 
@@ -85,7 +76,7 @@
      width: 50px !important;
      height: 50px !important;
      padding-left: 50px;
-     background-image: var(--emote-04);
+     background-image: url("img/emote/emote004.png");
      background-size: 100%;
 }
 
@@ -95,7 +86,7 @@
      width: 30px !important;
      height: 30px !important;
      padding-left: 30px;
-     background-image: var(--emote-05);
+     background-image: url("img/emote/emote005.png");
      background-size: 100%;
 }
 
@@ -105,7 +96,7 @@
      width: 50px !important;
      height: 50px !important;
      padding-left: 50px;
-     background-image: var(--emote-05);
+     background-image: url("img/emote/emote005.png");
      background-size: 100%;
 }
 
@@ -115,7 +106,7 @@
      width: 30px !important;
      height: 30px !important;
      padding-left: 30px;
-     background-image: var(--emote-06);
+     background-image: url("img/emote/emote006.png");
      background-size: 100%;
 }
 
@@ -125,7 +116,7 @@
      width: 50px !important;
      height: 50px !important;
      padding-left: 50px;
-     background-image: var(--emote-06);
+     background-image: url("img/emote/emote006.png");
      background-size: 100%;
 }
 
@@ -135,7 +126,7 @@
      width: 30px !important;
      height: 30px !important;
      padding-left: 30px;
-     background-image: var(--emote-07);
+     background-image: url("img/emote/emote007.png");
      background-size: 100%;
 }
 
@@ -145,6 +136,6 @@
      width: 50px !important;
      height: 50px !important;
      padding-left: 50px;
-     background-image: var(--emote-07);
+     background-image: url("img/emote/emote007.png");
      background-size: 100%;
 }
