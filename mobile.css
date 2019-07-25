@@ -3,7 +3,7 @@
 /* 샤이님은 해당 CSS디자인 제작과 직접적인 관련이 없습니다. */
 
 /*이모티콘용 시트를 불러옵니다*/
-@import "emote.css";
+/* @import "emote.css"; */
 
 /* Noto Sans 를 불러옵니다*/
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
